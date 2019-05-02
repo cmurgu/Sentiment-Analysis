@@ -8,11 +8,10 @@ class TwitterClient(object):
   
     def __init__(self): 
           
-        consumer_key = 'zY3lB8ZLtVUJzyFfyQQIFT2Aq'
-        consumer_secret = 'fvfiu0G0qTaCGJJ26P7zsDhGvFLVUsjnByYzFsbsws1EBqXeZH'
-        access_token = '1052672668250587139-OgyHtZwPDyg9TWHDrMlcy6DOvYMYgf'
-        access_token_secret = '6m2fPMX921n4QzGqwkcRxAk8s8PP7cuP2vqNAjbVniaNF'
-
+        consumer_key = '*****'
+        consumer_secret = '*****'
+        access_token = '*****'
+        access_token_secret = '*****'
 
         try: 
             
@@ -103,6 +102,9 @@ def main(name):
         print(tweet['text'])
         
     return (positive, negative, neutral)
+ 
+
+#Below code gets the sentiments in a file named output. 
 
 if __name__ == "__main__": 
     
